@@ -1,0 +1,32 @@
+{
+	"name": "ev-carousel",
+	"version": "1.0.0",
+	"description": "A react 3D carousel",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "webpack --mode production"
+	},
+	"author": "noob_dev",
+	"license": "ISC",
+	"peerDependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.14.0",
+		"@babel/plugin-proposal-object-rest-spread": "^7.13.8",
+		"@babel/preset-env": "^7.14.1",
+		"@babel/preset-react": "^7.13.13",
+		"babel-loader": "^8.2.2",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"css-loader": "^5.2.4",
+		"prop-types": "^15.7.2",
+		"react-fast-compare": "^3.2.0",
+		"sass": "^1.32.12",
+		"sass-loader": "^11.0.1",
+		"style-loader": "^2.0.0",
+		"webpack": "^5.36.2",
+		"webpack-cli": "^4.7.0"
+	}
+}
